@@ -1,0 +1,58 @@
+
+
+body {
+	font-family: Tahoma, sans-serif;
+	font-size: 1em;
+}
+
+header {
+	ul li a {
+		font-weight: 900;
+	}
+
+	h1 {
+		font-family: 'Playball', cursive;
+		font-size: 4.4vmax;
+		font-weight: 300;
+		font-style: italic;
+	}
+
+	.text-header p {
+		font-size: .8em;
+	}
+
+	nav {
+		li {
+			font-weight: bold;
+			font-size: 1.3vmax;
+			}
+		input[placeholder] {
+			font-size: 1.3vmax;
+		}
+
+		.btn {
+			font-size: 1.3vmax;
+		}
+}
+}
+
+	main {
+		ul li a {
+			font-size: 1.3vmax;
+		}
+	}
+
+	.block-text,
+	.content-article {
+		p {
+			font-size: 1.1vmax;
+		}
+	}
+
+	.block {
+
+		figcaption {
+			font-weight: 900;
+			font-size: .8em;
+		}
+	}

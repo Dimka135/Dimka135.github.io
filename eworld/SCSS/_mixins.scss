@@ -1,0 +1,39 @@
+@mixin main-titles {
+	padding: 1vw 3vw;
+	background-color: #e51c83;
+	display: inline-block;
+	width: 100%;
+	color: #fff;
+	border-top-right-radius: 1vw;
+	border-top-left-radius: 1vw;
+}
+
+@mixin left-width {
+	width: 260px;
+	border: 1px solid #d0d0d0;
+	border-top-left-radius: 1vw;
+	border-top-right-radius: 1vw;
+}
+
+@mixin head-articles {
+	text-decoration: underline;
+	font-weight: 900;
+	color: #73b503;
+}
+
+@mixin news {
+	text-decoration: underline;
+	color: #006699;
+	display: inline-block;
+	width: 100%;
+	text-align: right;
+	margin-top: 2vh;
+	font-weight: 300;
+	padding-bottom: 2vh;
+}
+
+@mixin mobile-subtitle {
+	font-size: 3.2vmax;
+	text-align: center;
+}
+

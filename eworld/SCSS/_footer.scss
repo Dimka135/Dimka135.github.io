@@ -1,0 +1,43 @@
+footer {
+	width: 100%;
+	background-color: #f465ae;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0vh 1vw;
+	color: #fff;
+
+	p,
+	.menu-footer,
+	img {
+		padding: 2vh 0vh;
+	}
+
+	p {
+		font-size: .8vmax;
+	}
+}
+
+.menu-footer {
+	display: flex;
+
+	a {
+		color: #fff;
+		padding-left: 1vw;	
+	}
+
+	a:after {
+		content: "|";
+		margin-left: 2vh;
+	}
+
+	.project {
+		font-weight: 900;
+	}
+
+	li+li {
+		padding-left: 0vw;
+	}
+
+}
+
